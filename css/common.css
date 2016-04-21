@@ -24,12 +24,16 @@
 button.boton:hover{background-color: #C2C6C3; color:#1A2952;}
 button.boton:active{position:relative; top:3px;}
 
-/*CSS de pie de página*/
-.pie{background-image: url('../img/shoes_1.jpg'); background-repeat: no-repeat; background-position: right; height: 500px;}
-.pie > div{max-width: 500px; margin-left: 170px; margin-top: 60px;}
-.pie h1{margin-top: 40px; margin-bottom: 40px;}
-.pie input{border:none; display: inline-block;}
-.pie textarea{border:none; display: inline-block; vertical-align: top; width: 450px; height: 100px; background-color: transparent;}
-.pie div div{border:1px solid #a6a6a6; padding: 5px; margin-top: 20px;}
-.pie div div span{color:  #4d4d4d; margin-left: 8px; margin-right: 8px; vertical-align: top;}
-.pie button{width: 100%; margin-top: 20px;}
+/*CSS de contacto*/
+.contacto{background-image: url('../img/shoes_1.jpg'); background-repeat: no-repeat; background-position: right; height: 500px;}
+.contacto > div{max-width: 500px; margin-left: 170px; margin-top: 60px;}
+.contacto h1{margin-top: 40px; margin-bottom: 40px;}
+.contacto input{border:none; display: inline-block;}
+.contacto textarea{border:none; display: inline-block; vertical-align: top; width: 450px; height: 100px; background-color: transparent;}
+.contacto div div{border:1px solid #a6a6a6; padding: 5px; margin-top: 20px;}
+.contacto div div span{color:  #4d4d4d; margin-left: 8px; margin-right: 8px; vertical-align: top;}
+.contacto button{width: 100%; margin-top: 20px;}
+
+/*CSS de pie de pagina*/
+.pie {background-color: #1A2952; color:#fff; width: 100%; margin: 0px;}
+.pie p{padding-top: 15px; padding-left: 20px; padding-bottom: 10px; font-size: 11px; }
