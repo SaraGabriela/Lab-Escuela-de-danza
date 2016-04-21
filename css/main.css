@@ -1,0 +1,10 @@
+/*CSS de portada*/
+.portada{margin:0px;}
+.portada_img{background-image: url('../img/dance_1.jpg'); height: 400px; background-size: cover;}
+.portada_img div{max-width: 400px; float:left; margin-left: 100px; margin-top: 70px;}
+.portada_img div h1{font-style:'DolceVita'; font-size: 65px; }
+.portada_img div p{width: 230px; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+.portada_img button{background-color: #030E1E;}
+.portada div div p:last-child {max-width: 580px; margin:auto; margin-top: 60px;  font-size: 20px;}
+.portada div img {max-width: 100px; margin-top: -20px; }
+.portada button:last-child{margin:auto; display: block; width: 200px; margin-bottom: 80px;}
