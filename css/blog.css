@@ -1,1 +1,21 @@
 /* Inserta tu codigo aqui */
+
+.cont{
+	background:	#D3D3D3;
+	margin-bottom: 50px;
+}
+.col-4 img{
+	height: 227px;
+	width:275px;
+	position: absolute;
+}
+h2{
+	font-size: 15px;
+}
+.col-8{
+	margin-top: 50px;
+}
+button{
+	width:200px;
+	margin-bottom: 10px;
+}
