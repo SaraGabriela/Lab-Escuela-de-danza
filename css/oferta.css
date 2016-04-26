@@ -1,13 +1,9 @@
-/*CSS Menú*/
-header{background-color: white;text-align: center;height: 100px;}
-.letra-azul{margin:20px;color:#1F2750;}
-ul{display: inline-block;text-decoration: none;color:#C2C6C3;}
-#lis1{padding: 30px; padding-top: 0px;}
+
 
 /*CSS Oferta de clases*/
 .oferta{background-color: #E9EAE9;text-align: center;padding-top: 70px;padding-bottom: 50px;}
 .titulo{margin-bottom: 30px;}
-li{display: inline-block;text-decoration-style: none;*/margin-right: 20px;margin-left: 20px;height: 400px;}
+#areas{display: inline-block;text-decoration-style: none;*/margin-right: 20px;margin-left: 20px;height: 400px;}
 img{width: 300px;height: 400px;}
 .detalle{width: 260px;height: 160px;margin-right: 20px;margin-left: 20px;background-color: rgba(31, 31, 31, 0.6);position: relative;bottom: 260px;}
  h4, p{width: 260px;height: 30px;color: white;}
