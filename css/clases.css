@@ -30,7 +30,7 @@ hr{
 .clases{text-align: center;padding: 30px; margin-bottom: 50px;}
 .clases ul{display: inline-block; }
 .clases li, h5{list-style-type: none;text-align: left;}
-ul{height: 180px;width: 200px;margin:30px;}
+.clases ul{height: 180px;width: 200px;margin:30px;}
 img{width: 200px;height: 150px;}
 .banner{background-image: url("../img/cubes.png");width: 100%; margin: 0px;}
 .mensaje{text-align: center;padding: 100px;}
