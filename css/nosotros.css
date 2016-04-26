@@ -1,1 +1,61 @@
 /* Inserta tu codigo aqui */
+/**{outline: 1px solid rgba(255,0,0,0.4)*/
+.about{
+	background: url("../img/dance_7.jpg")no-repeat;
+	height:550px;
+}
+.cuadro{
+	background:rgba(31, 31, 31, 0.6);
+	padding: 25px 20px 35px 20px;
+	width: 500px;
+	position: relative;
+	top: 170px;
+	left: 350px;
+}
+.pilares{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 900px;
+}
+.pilares div{
+	padding: 40px;
+} 
+hr{
+	width: 200px;
+	align:center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Comienza Instructores*/
+.clases{text-align: center;padding: 30px; margin-bottom: 50px;}
+.clases ul{display: inline-block; }
+.clases li, h5{list-style-type: none;text-align: left;}
+.clases ul{height: 180px;width: 200px;margin:30px;}
+img{width: 200px;height: 150px;}
+.banner{background-image: url("../img/cubes.png");width: 100%; margin: 0px;}
+.mensaje{text-align: center;padding: 100px;}
+.lista-sin-estilo{list-style-type: none;}
+.letra-azul{color:#1F2750;}
+.letra-gris-claro{color:#C2C6C3;}
+/*Termina Instructores*/
+
+/*CSS de botones*/
+.boton{padding: 10px 35px 10px 35px; background-color: #1A2952; color:#C2C6C3; border:none;border-radius: 3px; }
+button.boton:hover{background-color: #C2C6C3; color:#1A2952;}
+button.boton:active{position:relative; top:3px;}
+
+/*CSS de contacto*/
+.contacto{background-image: url('../img/shoes_1.jpg'); background-repeat: no-repeat; background-position: right; height: 500px;}
+.contacto > div{max-width: 500px; margin-left: 170px; margin-top: 60px;}
+.contacto h1{margin-top: 40px; margin-bottom: 40px;}
+.contacto input{border:none; display: inline-block; width: 450px;}
+.contacto textarea{border:none; display: inline-block; vertical-align: top; width: 450px; height: 100px; background-color: transparent;}
+.contacto input:focus, .contacto textarea:focus{outline: none;}
+.contacto div div{border:1px solid #a6a6a6; padding: 5px; margin-top: 20px;}
+.contacto div div span{color:  #4d4d4d; margin-left: 8px; margin-right: 8px; vertical-align: top;}
+.contacto button{width: 100%; margin-top: 20px;}
+
+/*CSS de pie de pagina*/
+.pie {background-color: #1A2952; color:#fff; width: 100%; margin: 0px;}
+.pie p{padding-top: 15px; padding-left: 20px; padding-bottom: 10px; font-size: 11px; }
