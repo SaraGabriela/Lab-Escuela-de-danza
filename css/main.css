@@ -1,4 +1,6 @@
 /*CSS de portada*/
+a{text-decoration: none;}
+
 .portada{margin:0px;background-image: url('../img/textura_2.jpg');background-repeat: repeat;}
 .portada_img{background-image: url('../img/dance_1.jpg'); height: 400px; background-size: cover;}
 .portada_img div{max-width: 400px; float:left; margin-left: 100px; margin-top: 70px; }
