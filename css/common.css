@@ -15,7 +15,7 @@
 .head+section{margin-top: 168px;}
 .head+div{margin-top: 168px;}
 .head a{text-decoration: none;color:#C2C6C3;}
-/*.head a:hover{font-family: 'LatoHeavy'; color:#C2C6C3; }*/
+.head a:hover{font-weight: bolder; color:#666666;}
 
 /*CSS de botones*/
 .boton{padding: 10px 35px 10px 35px;
