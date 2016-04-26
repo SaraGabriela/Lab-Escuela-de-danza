@@ -14,11 +14,12 @@
 .head nav ul{padding-top: 10px; padding-bottom: 10px;}
 .head+section{margin-top: 168px;}
 .head+div{margin-top: 168px;}
+.head a{text-decoration: none;color:#C2C6C3;}
 
 /*CSS de botones*/
-.boton{padding: 10px 35px 10px 35px; 
-	background-color: #1A2952; 
-	color:#C2C6C3; 
+.boton{padding: 10px 35px 10px 35px;
+	background-color: #1A2952;
+	color:#C2C6C3;
     border:none;
     border-radius: 3px; }
 button.boton:hover{background-color: #C2C6C3; color:#1A2952;}
