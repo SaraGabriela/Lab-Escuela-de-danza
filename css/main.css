@@ -1,15 +1,17 @@
 /*CSS de portada*/
 a{text-decoration: none;}
 
-.portada{margin:0px;background-image: url('../img/textura_2.jpg');background-repeat: repeat;}
-.portada_img{background-image: url('../img/dance_1.jpg'); height: 400px; background-size: cover;}
-.portada_img div{max-width: 400px; float:left; margin-left: 100px; margin-top: 70px; }
-.portada_img div h1{font-style:'DolceVita'; font-size: 65px; }
-.portada_img div p{width: 230px; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
-.portada_img button{background-color: #030E1E;}
-.portada div div p:last-child {max-width: 580px; margin:auto; margin-top: 60px;  font-size: 20px;}
+.portada{margin:0px; }
+.portada-video{height: 400px; overflow: hidden; position: relative; background-color: rgba(6, 22, 47,0.7); }
+.portada-video video{ top:50%; left: 50%; transform: translateX(-50%) translateY(-50%); position: absolute; z-index: -1;}
+.portada-video div {max-width: 400px; float:left; margin-left: 100px; margin-top: 70px;}
+.portada-video div h1{font-style:'DolceVita'; font-size: 65px;  }
+.portada-video div p{width: 230px; margin-top: 20px; margin-bottom: 20px; font-size: 15px;}
+.portada-video button{background-color: #030E1E;}
+.portada div div p:last-child {max-width: 580px; margin:auto; font-size: 20px;}
+.portada>div:last-child{background-image: url('../img/textura_2.jpg');background-repeat: repeat; padding-top: 60px; padding-bottom: 80px;}
 .portada div img {max-width: 100px; margin-top: -20px; }
-.portada button:last-child{margin:auto; display: block; width: 200px; margin-bottom: 80px;}
+.portada button:last-child{margin:auto; display: block; width: 200px;}
 
 .cuadro-instructores{height: 350px; overflow: hidden; margin: 0px; }
 .cuadro-instructores button{margin-left: -38%; margin-top: 49%; width: 400px; padding: 20px;}
